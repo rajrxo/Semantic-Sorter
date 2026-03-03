@@ -83,7 +83,9 @@ winget install Python.Python.3.12
 
 ### Mac or Linux
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
 (run the commands homebrew asks you to run)
+
 brew install python
 
 ### step 0 Set directory to the folder Semantic_Sorter.py is 
