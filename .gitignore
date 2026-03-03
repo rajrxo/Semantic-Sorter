@@ -1,0 +1,21 @@
+# python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# virtual environments
+venv/
+.venv/
+
+# mac
+.DS_Store
+
+# windows
+Thumbs.db
+
+# semantic sorter logs
+.semantic_sort_log_*
+
+# huggingface / torch caches (just in case)
+.cache/
