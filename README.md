@@ -22,6 +22,17 @@ the result is folders that are technically sorted but still mentally messy.
 
 ---
 
+### Before
+<img width="1303" height="781" alt="image" src="https://github.com/user-attachments/assets/579779e4-7864-43b2-afe6-181b0ffcfc1c" />
+<img width="131" height="124" alt="image" src="https://github.com/user-attachments/assets/416c9282-6cb0-4856-b9f4-8d6584140edf" />
+
+### After
+<img width="1319" height="963" alt="image" src="https://github.com/user-attachments/assets/18b5987f-6207-405f-8455-a62092972f87" />
+<img width="127" height="122" alt="image" src="https://github.com/user-attachments/assets/edaa6e71-5037-429c-abbc-89310aa54a6a" />
+Lets ignore that.
+
+
+
 ## what this project does differently
 
 semantic sorter uses local machine learning to understand file meaning before organizing anything.
