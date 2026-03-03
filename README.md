@@ -110,23 +110,23 @@ first run may take a few minutes while models download locally.
 
 preview first (safe):
 
-python semantic_sorter.py "/path/to/your/folder" --dry-run
+python Semantic_Sorter.py "/path/to/your/folder" --dry-run
 
 example:
 
-python semantic_sorter.py ~/Downloads --dry-run
+python Semantic_Sorter.py ~/Downloads --dry-run
 
 ---
 
 apply for real:
 
-python semantic_sorter.py "/path/to/your/folder"
+python Semantic_Sorter.py "/path/to/your/folder"
 
 ---
 
 undo last run:
 
-python semantic_sorter.py "/path/to/your/folder" --undo
+python Semantic_Sorter.py "/path/to/your/folder" --undo
 
 ---
 
@@ -134,11 +134,11 @@ python semantic_sorter.py "/path/to/your/folder" --undo
 
 to remove downloaded model caches:
 
-python purge_models.py
+python Purge_Models.py
 
 to remove models and uninstall python packages:
 
-python purge_models.py --full
+python Purge_Models.py --full
 
 ---
 
