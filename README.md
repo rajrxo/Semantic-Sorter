@@ -1,4 +1,4 @@
-# semantic sorter
+# Semantic Sorter
 
 a local ai-powered file organizer that understands what your files actually mean, not just what their extensions say.
 
