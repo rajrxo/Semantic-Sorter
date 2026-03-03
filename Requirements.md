@@ -1,6 +1,6 @@
 # quick setup
 
-follow the steps below to get the sorter running.
+follow the steps below to get semantic sorter running locally.
 
 ## step 1 create virtual environment (optional but recommended)
 
@@ -22,30 +22,10 @@ after activation you should see (venv) in your terminal.
 
 ## step 3 install python dependencies
 
-pip install sentence-transformers scikit-learn numpy pillow pytesseract pypdf
+pip install sentence-transformers scikit-learn numpy pillow pypdf torch transformers
 
 this installs all required python packages.
 
----
+note: the first run may take a few minutes because the embedding and vision models download locally.
 
-# optional enable image ocr with tesseract
-
-the sorter works without tesseract, but image text extraction will be disabled.
-
-## mac (homebrew)
-
-brew install tesseract
-
-## linux (ubuntu or debian)
-
-sudo apt update
-sudo apt install tesseract-ocr
-
-## windows
-
-download tesseract from the official ub mannheim build:
-https://github.com/UB-Mannheim/tesseract/wiki
-
-after installing, make sure tesseract is added to your system path.
-
-note: first run may take longer because the embedding model downloads locally.
+no external apis are used. everything runs fully offline after the initial download.
