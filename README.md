@@ -144,6 +144,10 @@ undo last run:
 
 python Semantic_Sorter.py "/path/to/your/folder" --undo
 
+
+
+if you encounter error or the file stops in mid try to move the script or folder at some other directory like documents or movies anywhere you likely wont use this 
+
 ---
 
 ## reclaim disk space (optional)
