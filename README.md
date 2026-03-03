@@ -76,6 +76,20 @@ everything runs locally on your machine.
 
 follow the steps below to get the sorter running.
 
+Install Python(skip this if you have python already installed)
+
+### Windows
+winget install Python.Python.3.12
+
+### Mac or Linux
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+(run the commands homebrew asks you to run)
+brew install python
+
+### step 0 Set directory to the folder Semantic_Sorter.py is 
+
+cd /path/to/the/folder/wherescriptis
+
 ### step 1 create virtual environment (optional but recommended)
 
 python -m venv venv
@@ -102,7 +116,7 @@ after activation you should see (venv) in your terminal.
 
 pip install sentence-transformers scikit-learn numpy pillow pypdf torch transformers
 
-first run may take a few minutes while models download locally.
+first run may take a few minutes while models download locally so bear with it 
 
 ---
 
